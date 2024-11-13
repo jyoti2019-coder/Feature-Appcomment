@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .Container {
+    background: rgb(163, 86, 124);
+    font-family: calibari;
+    padding-right: 15px; 
+    padding-left: 15px;
+    box-shadow: 2px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .navbar ul li:hover {
+    background-color: rgb(4, 16, 52);
+    color: white;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    display: inline-block;
+  }
+  
+  .button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+  }
+  
+  .button a {
+    color: rgb(168, 194, 119);
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+  }
+  
+  .service-menu {
+    position: relative;
+  }
+  
+  .dropdown {
+    display: block;
+    position: absolute;
+    margin-left: 0cm;
+    background-color: rgb(112, 83, 83);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .dropdown ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown ul li {
+    display: block;
+    padding: 5px;
+  }
+  
+  .dropdown ul li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
